@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todoapp</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <h1 class="heading">Schedule your day</h1>
+    </div>
+    <div id="date" class="date" ></div>
+    </div>
+    <div class="container">
+        <div class="header">
+            <!-- imput-item -->
+            <input id="input" class="field" type="text" placeholder="Write your today's tasks here">
+            <input class="todo_btn" onclick="addTodo()" type="button" id="add" value="ADD" >
+        </div>
+        <ul class="list" id="list">
+            <!-- <li class="item">
+                <p id="textArea" class="text">Exercise</p>
+                <div class="btn-div">
+                    <button id="editBtn" class="btn"><i class="fa fa-edit"></i></button>
+                    <button id="deleteBtn" class="btn"><i class="fa fa-trash"></i></button>
+                </div>
+            </li> -->
+        </ul>
+        <div class="clear">
+             <i id="clear" onclick="delAll()" class="btn fa fa-refresh"> </i>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    
+</body>
+</html>

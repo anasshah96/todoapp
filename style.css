@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background-color: rgb(11,23,42);
+    /* background-color: thistle; */
+
+}
+
+.container{
+    width: 40%;
+    margin: 10px auto;
+    margin-top: 80px;
+}
+
+
+.heading{
+    font-size: 45px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    margin: 50px 0 10px 10px;
+    
+}
+
+.header{
+    display: flex;
+    padding-bottom: 30px;
+}
+
+
+.item{
+    display: flex;
+    border-bottom: 1px solid white;
+    padding: 5px 0;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.item:hover{
+    background-color: rgb(13, 28, 53);
+}
+
+
+.text{
+    flex-grow: 6;
+    color: white;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+}
+.field{
+    width: 80%;
+    padding: 12px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+
+}
+.todo_btn{
+    width: 20%;
+    border: none;
+    background-color: rgb(184, 91, 68);
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 2px;
+
+}
+
+.todo_btn:hover{
+    background-color: rgb(214,74,40);
+    cursor: pointer;
+}
+
+.todo_btn:focus{
+    outline: none;
+}
+
+.fa-trash{
+    flex-grow: 1;
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.fa-edit:hover{
+    color: #7FC844;
+    cursor: pointer;
+}
+
+.fa-trash:hover{ 
+color: rgb(214,74,40);
+cursor: pointer;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+/* .fa-redofa-refresh{
+    padding: 60px;   
+    font-size: 100px;
+    
+} */
+
+.clear{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+    color: white;
+    
+
+}
+
+.clear i:hover{
+    color: yellowgreen;
+    cursor: pointer;
+}
+
+.date{
+    font-size: 15px;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+
+.btn{
+    font-size: 18px;
+    color: white;
+    border: none;
+    background-color: transparent;
+    padding: 0 20px 0 0;
+}
+
+.btn-div{
+    display: flex;
+    
+}
